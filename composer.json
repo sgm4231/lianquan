@@ -97,6 +97,14 @@
                 "symlink": true,
                 "plus-soft": true
             }
+        },
+	{
+            "type": "path",
+            "url": "packages/plus-yixueqing-pc",
+            "options": {
+                "symlink": true,
+                "plus-soft": true
+            }
         }
     ],
     "require": {
@@ -116,6 +124,7 @@
         "lokielse/omnipay-alipay": "~3",
         "lokielse/omnipay-wechatpay": "~3",
         "medz/cors": "^1.3",
+        "medz/gb-t-2260": "^1.0",
         "omnipay/omnipay": "~3",
         "omnipay/paypal": "^3.0",
         "overtrue/easy-sms": "^1.0",
@@ -131,6 +140,7 @@
         "slimkit/plus-socialite": "1.8.0",
         "symfony/finder": "^4.0",
         "symfony/yaml": "^4.0",
+	"zhiyicx/plus-component-pc": "^5.0",
         "tymon/jwt-auth": "1.0.0-rc.2",
         "zhiyicx/plus-group": "1.7.0",
         "zhiyicx/plus-question": "1.7.0"

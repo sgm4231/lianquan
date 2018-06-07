@@ -17,9 +17,9 @@
  */
 
 return [
-    'client_id' => '',
-    'client_secret' => '',
-    'app_key' => '#',
+    'client_id' => 'YXA6hyjRUGVIEei0FtUyIBvRMQ',
+    'client_secret' => 'YXA6JUvu0rIHTorD-DTOmfWkP0OeFxw',
+    'app_key' => '1146180531253203#lianquan',
     'register_type' => 0,
-    'open' => false,
+    'open' => true,
 ];

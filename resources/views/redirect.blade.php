@@ -85,15 +85,13 @@
 <body>
 <div class="flex-center position-ref full-height g-bg-color">
     <div class="content">
-        <img src="{{ asset('/plus.png') }}" align="{{ config('app.name') }}">
+
         <div>正在为您跳转至</div>
         <div class="title m-b-md">
             {{ $redirect }}
         </div>
 
-        <div class="links">
-            <a target="_blank" href="https://github.com/slimkit/thinksns-plus">GitHub</a>
-        </div>
+
     </div>
 </div>
 </body>
