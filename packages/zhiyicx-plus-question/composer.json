@@ -1,0 +1,41 @@
+{
+    "name": "zhiyicx/plus-question",
+    "description": "🤔The Q & A component for ThinkSNS+. （ThinkSNS+ 问答模块）✈️",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Seven Du",
+            "email": "shiweidu@outlook.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "erusev/parsedown": "^1.6",
+        "ezyang/htmlpurifier": "^4.9",
+        "illuminate/console": "5.6.*",
+        "illuminate/contracts": "5.6.*",
+        "illuminate/database": "5.6.*",
+        "illuminate/http": "5.6.*",
+        "illuminate/support": "5.6.*",
+        "league/html-to-markdown": "^4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "SlimKit\\PlusQuestion\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SlimKit\\PlusQuestion\\Providers\\AppServiceProvider",
+                "SlimKit\\PlusQuestion\\Providers\\ModelServiceProvider",
+                "SlimKit\\PlusQuestion\\Providers\\RouteServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "version": "1.7.0"
+}

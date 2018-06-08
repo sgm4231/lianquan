@@ -1,0 +1,153 @@
+pc:
+    installed: true
+    routeName: 'pc:feeds'
+    stats_code: null
+    status: '1'
+    logo: 75
+    loginbg: 87
+    site_name: 链圈财经
+    site_copyright: 'Powered by FaceKe.Com ©2018 Hotime All Rights Reserved.'
+    site_technical: 九曲互动软件
+    weibo:
+        client_id: null
+        client_secret: null
+    wechat:
+        client_id: wx1a6b2776ef14f584
+        client_secret: 8a1a3313226ed8647607a2031bc3ffb5
+    qq:
+        client_id: '1106752706'
+        client_secret: SEghtD2hRnuagHMA
+files:
+    upload_max_size: 10240
+http:
+    web:
+        open: true
+        url: 'http://faceke.com/feeds'
+    spa:
+        open: true
+        url: 'http://faceke.com/h5'
+site:
+    gold:
+        status: false
+    reward:
+        status: false
+        amounts: '1,5,10,20,50,100,500,1000'
+    reserved_nickname: 'root,admin,service,caiwu,ceo,'
+    client_email: service@faceke.com
+    user_invite_template: '我发现了一个很赚钱的区块链社交平台，快来加入吧：http://faceke.com/h5'
+    anonymous:
+        status: false
+        rule: null
+    about_url: 'http://faceke.com/H5'
+    status: true
+    off_reason: 站点维护中请稍后再访问
+    app:
+        status: true
+    h5:
+        status: true
+asemob:
+    client_id: YXA6hyjRUGVIEei0FtUyIBvRMQ
+    client_secret: YXA6JUvu0rIHTorD-DTOmfWkP0OeFxw
+    app_key: '1146180531253203#lianquan'
+    register_type: 0
+    open: true
+jpush:
+    app_key: f805709dcf8b033b0a13b27d
+    master_secret: 81d9aede1cc8b2fe2702b8c2
+app:
+    name: 链圈财经
+    keywords: 区块链，链圈财经，链圈，币圈，数字货币
+    description: 区块链，链圈财经，链圈，币圈，数字货币
+    icp: 粤ICP备10017340号-3
+currency:
+    rule: "会员积分说明\n会员积分，是指用户在《链圈财经》注册会员后获得的积分。\n \n如何获得会员积分\n\n1.成功注册，用户成功注册成为《链圈财经》的会员即可获得相应的注册积分。\n\n2.会员坚持每日签到，即可获得相应的签到积分。\n\n3.完善详细资料，送相应的积分，进入我的-详细资料>>\n\n4.会员回答其他会员提出的悬赏问题，即可获得对应的积分。\n\n5.会员可通过我的-充值可兑换相应的积分。\n\n6.不限于本APP其他获得积分的渠道。"
+    cash:
+        rule: "会员积分说明\n会员积分，是指用户在《链圈财经》注册会员后获得的积分。\n \n如何获得会员积分\n\n1.成功注册，用户成功注册成为《链圈财经》的会员即可获得相应的注册积分。\n\n2.会员坚持每日签到，即可获得相应的签到积分。\n\n3.完善详细资料，送相应的积分，进入我的-详细资料>>\n\n4.会员回答其他会员提出的悬赏问题，即可获得对应的积分。\n\n5.会员可通过我的-充值可兑换相应的积分。\n\n6.不限于本APP其他获得积分的渠道。"
+        status: false
+    recharge:
+        rule: "会员积分说明\n会员积分，是指用户在《链圈财经》注册会员后获得的积分。\n \n如何获得会员积分\n\n1.成功注册，用户成功注册成为《链圈财经》的会员即可获得相应的注册积分。\n\n2.会员坚持每日签到，即可获得相应的签到积分。\n\n3.完善详细资料，送相应的积分，进入我的-详细资料>>\n\n4.会员回答其他会员提出的悬赏问题，即可获得对应的积分。\n\n5.会员可通过我的-充值可兑换相应的积分。\n\n6.不限于本APP其他获得积分的渠道。\n\n会员积分使用：\n\n会员在投稿，广告等消费的时候直接以现金方式抵扣，100积分=1元。"
+        status: false
+registerSettings:
+    showTerms: false
+    method: mobile-only
+    content: '# 服务条款及隐私政策'
+    fixed: no-need
+    type: all
+sms:
+    default:
+        allowed_gateways:
+            - alidayu
+        gateways:
+            - alidayu
+    gateways:
+        alidayu:
+            app_key: '24915443'
+            app_secret: fb20fd38b71e7c6cb9cb5cfc937536d4
+            sign_name: 九曲互动
+        aliyun:
+            access_key_id: null
+            access_key_secret: null
+            sign_name: null
+    channels:
+        code:
+            alidayu:
+                template: SMS_134440049
+            aliyun:
+                template: null
+            yunpian:
+                content: null
+            huyi:
+                content: null
+news:
+    contribute:
+        verified: true
+        pay: true
+    pay_contribute: 100
+feed:
+    reward: false
+around-amap:
+    amap-sig: 782ac000f00597926086771b286f1a7e
+    amap-tableid: 5b15f6542376c12776a531c4
+    amap-key: a050cc176d2a7e55ce3298a31044b965
+    amap-jssdk: 'https://webapi.amap.com/maps?v=1.4.4&key=a050cc176d2a7e55ce3298a31044b965'
+checkin:
+    open: true
+    attach_balance: 10
+question:
+    app:
+        switch: true
+    apply_amount: 200
+    onlookers_amount: 100
+    anonymity_rule: 匿名规则
+wallet:
+    cash:
+        status: false
+    recharge:
+        status: true
+    transform:
+        status: false
+newPay:
+    wechatPay:
+        appId: wx39b82c1339f535c1
+        apiKey: brea41qdzzqgdmmglkmy0qonh5d50yyl
+        mchId: 1296273501
+    alipay:
+        appId: '2016071901637846'
+        signType: RSA2
+        alipayKey: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhu0lI/h+FGb0tTIkxuGWNx8zNy2rJWniuUGoFy2TZTqiDusXr95RgFwx683jH0YmE9LmG9SzE9B9K9SOFoMEs9+GD8hhyZzh9Mafjk6Bx9+eZt+1ZYknDpLsZvI60XT+YoOkRO90ozIAew+frumnX6N3o8Tnk9IH4/1hotk5QDAgj639q9to0Czb+s4vqQ61j7zxn23/QtZqvbpn2yMiO3/GuzLBVFOG0Dsa6ynIlj2vFil2U6I8uwrRSjzZENib1FolAx5S42fDc0grWxj0HstydEFF1TABa/QAphGFYXs4r0ilqV41MdMZyngQGUpyyOCeemvfQ5T0E636/NRJDQIDAQAB
+        publicKey: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhu0lI/h+FGb0tTIkxuGWNx8zNy2rJWniuUGoFy2TZTqiDusXr95RgFwx683jH0YmE9LmG9SzE9B9K9SOFoMEs9+GD8hhyZzh9Mafjk6Bx9+eZt+1ZYknDpLsZvI60XT+YoOkRO90ozIAew+frumnX6N3o8Tnk9IH4/1hotk5QDAgj639q9to0Czb+s4vqQ61j7zxn23/QtZqvbpn2yMiO3/GuzLBVFOG0Dsa6ynIlj2vFil2U6I8uwrRSjzZENib1FolAx5S42fDc0grWxj0HstydEFF1TABa/QAphGFYXs4r0ilqV41MdMZyngQGUpyyOCeemvfQ5T0E636/NRJDQIDAQAB
+        secretKey: MIIEpAIBAAKCAQEA4CtH7mAqJrK+UtSrmp8M9iUv9yoh8oKZiJm0wegkYgX20uo/ntpfCdRIxNpVPmOU3oYDvh7U+90T/MhoVk0DDKHT6BgA0IRDRd/A82VagLuJnAwrOyN1vaIx0QVQ+s5o+Yp5vu/AfuB5Z2A0oO5/qobNXgpR5hlHIVtCO9GAzDZtBrw9z7fML7re0AIxriNJOP40e4VXc51iHrrqsujzsbpiUP6IlLdywMtD1r5uJrVk7FWyIgAEQQuS/WaHj20CXb2njq7pHj5NZL8zp1ap9m2I/144u1UcLKSL6eydFPOmn6yYqgrZkQnN8ckmbqMqzlqWTCmR+9DPRxQksQ9bPQIDAQABAoIBAEgNgVRcco/3ufcTxoivgNIJR+6RC1JQqhrfFNuSy0b6lchbZNGhbRTSuAUWDHo+NdaEiuVsMZc3CzqgC/FZVZaU2XDrbi+Xo6vs7K8PL9Ta8rNGsgqTLkAixxJhPBMxj0pOOS2nEF93tW4F3USxBDYCmDYW6RYln9hX5eUmRNjeN0szcaIXOkE6o7YT3HOgGqbzepxYzdrKGTloyL8JU9sIXS+4U6nwTDZrgeYslNVOZnP+rN6pslmLEtVjutZ+l1rRRgM8+1M73rqWPL8PYio46ZpwxJlFOHMG4LZICHE7cGg5bymp5hZa5XX+oSKk+yPH5kn34p2SdZvGGCmIq2ECgYEA/nlCvkp+GJKYudyifFotW86yMT7MhrlpIKyYbdyw4YWE2om/7ocitRPF29bSDg57hBGTdbKnsC5tvfxqKqnzy2zC41JsZOOuOt23XxWVZ0WDYBlocwl7KqBFW0Il9a4CeIKfRY/xjGo9SIXjUVeuYA3eDQpNnkQ1l+8v2I4T4EUCgYEA4YN89rWL/yBJz983q5ym/b98pD2LFOjrl/GYBBzKL6ax8t5HtjU/mJzyP9zYJyXPZdzfLHZD6VTLvbBksUJBX8IASTfJoye5NdNyvCmtHthNGSsOg9aBrkRf0z8eYGn+cXsa3s9ewgv9ahQwgpe9GRqyWSIvzLaPbPu0LECHKpkCgYBddx5blDLCRb3QrkgD0n9MdBug2Mb4SMtjE+GcoG1bN9Y3ClczffDyf0Ox3jIitZEKTgZSOX87x6HJIRfBedCwi878/X4QhEuvFVZPlzbbyn1ZY5uofPf/DQTMYvxcQ0BnENr9CsSWZUMDCyIV81V5tD41ne4qTjU9C74QFQcZ3QKBgQCk6fkamYz1V3Fi+IPHldlwuvW1TeRFuEeBaAWZDEy3KBn915ttnecR/cQR+7h+eGIAxdLWuu3S1lXgM/yOvDr+geqfoJJuJACHYkgHXhrh8aAABcKpmtZe0FWbMA9QxnJyHmp6Af/zu7zoNDd9aOW6VBGUqTF3bRHZyv/pVI8EEQKBgQDVIHmK8kJb5yaL2B6otq0mQ6jcW8e7N/BnBZbRHbviM4InEIkSMnEPJDwcZnLUYJfLSXWPtB7dMfRE0yWAcciDTcgXtzt4718nYaIMUd3ZfykSaB+1OTDU5vsUZM3zU/hQtqvAQigPwco3ASF3ZFkV4da3sbUiF1FjlC5DEdPATw==
+plus-appversion:
+    open: true
+im:
+    helper-user: '10'
+mail:
+    driver: smtp
+    host: smtp.exmail.qq.com
+    port: '465'
+    from:
+        address: lianquan@hotime.cn
+        name: 链圈财经
+    encryption: ssl
+    username: lianquan@hotime.cn
+    password: Server1230)
